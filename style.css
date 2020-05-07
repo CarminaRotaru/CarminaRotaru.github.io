@@ -1,0 +1,121 @@
+html{
+    background-color: #ffffff;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+body{
+    margin: 0;
+    margin: auto;
+    max-width: 1000px;
+    background-color: #dddddd;
+    line-height: 3rem;
+}
+
+nav{
+    background-color: rgb(60, 60, 60);
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul .Tablet{
+    display: none;
+}
+
+nav ul .Phone{
+    display: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    height: 100%;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: #b7b7b7;
+}
+
+nav ul li .name{
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    font-size: 2rem;
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main p{
+    font-size: 1.2rem;
+}
+
+main h2{
+    font-size: 2rem;
+}
+
+main h3{
+    font-size: 1.5rem;
+}
+
+main img{
+    max-width: 70%;
+    margin-top: 20px;
+}
+
+main div h4{
+    margin: 0;
+}
+
+main form{
+    display: grid;
+}
+
+main form label{
+    font-size: 1.2rem;
+}
+
+main form input{
+    margin-bottom: 20px;
+}
+
+main form select{
+    margin-bottom: 20px;
+}
+
+main .Influences{
+    display: grid;
+}
+
+@media screen and (max-width: 720px)
+{
+    nav ul .Other{
+        display: none;
+    }
+
+    nav ul .Tablet{
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    nav ul .Phone{
+        display: initial;
+    }
+
+    nav ul .Tablet{
+        display: none;
+    }
+}
