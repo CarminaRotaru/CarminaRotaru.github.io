@@ -1,13 +1,11 @@
-import Game from "../../../lib/Game.js";
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, sounds, stateMachine } from "../../globals.js";
 import State from "../../../lib/State.js";
-import Player from "../../entities/Player.js";
 import GameStateName from "../../enums/GameStateName.js";
-import ImageName from "../../enums/ImageName.js";
 import SoundName from "../../enums/SoundName.js";
-import TitleSelect from "../../enums/TitleSelect.js";
-import { canvas, CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, sounds, stateMachine, timer } from "../../globals.js";
-import Map from "../../objects/Map.js";
-import MotherTree from "../../objects/MotherTree.js";
 
 export default class GameOverState extends State { 
     static NUM_ITERATIONS = 3;

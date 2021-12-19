@@ -1,3 +1,7 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Animation from "../../../../lib/Animation.js";
 import State from "../../../../lib/State.js";
 import Direction from "../../../enums/Direction.js";

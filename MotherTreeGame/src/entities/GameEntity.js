@@ -1,6 +1,10 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Hitbox from "../../lib/Hitbox.js";
 import Vector from "../../lib/Vector.js";
-import Direction from "../enums/Direction.js";
 import { context, DEBUG } from "../globals.js";
 
 export default class GameEntity {

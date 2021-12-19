@@ -12,6 +12,17 @@ body{
     color: #dadada;
 }
 
+a{
+    color: #ff74f8;
+    text-decoration: none;
+    height: 100%;
+    padding: 10px;
+}
+
+a:hover{
+    color: #9c9c9c;
+}
+
 nav{
     background-color: #5C186D;
     height: 60px;

@@ -1,13 +1,14 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Animation from "../../../../lib/Animation.js";
 import State from "../../../../lib/State.js";
-import Player from "../../../entities/Player.js";
 import Direction from "../../../enums/Direction.js";
-import EntityType from "../../../enums/EntityType.js";
 import PlayerStateName from "../../../enums/PlayerStateName.js";
 import { keys } from "../../../globals.js";
 import Map from "../../../objects/Map.js";
-import Tile from "../../../objects/Tile.js";
-import EntityAnimationFactory from "../../../services/EntityAnimationFactory.js";
 
 export default class PlayerWalkingState extends State{
     constructor(player){

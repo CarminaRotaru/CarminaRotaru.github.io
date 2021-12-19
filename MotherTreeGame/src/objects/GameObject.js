@@ -1,3 +1,8 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Vector from "../../lib/Vector.js";
 import { getCollisionDirection } from "../../lib/CollisionHelpers.js";
 import Hitbox from "../../lib/Hitbox.js";

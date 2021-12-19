@@ -1,3 +1,7 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Enemy from "./Enemy.js";
 import EntitySpriteFactory from "../../services/EntitySpriteFactory.js"
 import EntityType from "../../enums/EntityType.js";

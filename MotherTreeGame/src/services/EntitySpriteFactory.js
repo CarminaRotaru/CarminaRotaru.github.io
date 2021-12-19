@@ -1,3 +1,7 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import EntityType from "../enums/EntityType.js";
 import Goblin from "../entities/Enemy/Goblin.js";
 import Sprite from "../../lib/Sprite.js";

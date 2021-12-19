@@ -1,3 +1,7 @@
+/* 
+* Codder: Vikram Singh
+* Date: 12/18/2021
+*/
 import Sprite from "../../lib/Sprite.js";
 import Vector from "../../lib/Vector.js";
 
@@ -22,6 +26,6 @@ export default class Tile {
 	}
 
 	render(x, y) {
-		this.sprite.render(x, y); //this.canvasPosition.x, this.canvasPosition.y
+		this.sprite.render(x, y);
 	}
 }

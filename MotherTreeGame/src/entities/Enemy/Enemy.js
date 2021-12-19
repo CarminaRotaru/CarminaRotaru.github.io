@@ -1,9 +1,11 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import GameEntity from "../GameEntity.js";
-import { canvas, context, DEBUG, images, timer } from "../../globals.js";
+import { canvas, context, DEBUG, timer } from "../../globals.js";
 import StateMachine from "../../../lib/StateMachine.js";
 import Hitbox from "../../../lib/Hitbox.js";
-import ImageName from "../../enums/ImageName.js";
-import Sprite from "../../../lib/Sprite.js";
 import Map from "../../objects/Map.js";
 import Direction from "../../enums/Direction.js";
 import Vector from "../../../lib/Vector.js";
@@ -12,10 +14,8 @@ import { getRandomPositiveInteger } from "../../../lib/RandomNumberHelpers.js";
 import EnemyIdleState from "../../states/entity/enemy/EnemyIdleState.js";
 import EnemyWalkingState from "../../states/entity/enemy/EnemyWalkingState.js";
 import Tile from "../../objects/Tile.js";
-import EnemyCombatState from "../../states/entity/enemy/EnemyFollowingState.js";
 import EnemyFollowingState from "../../states/entity/enemy/EnemyFollowingState.js";
 import EnemyAttackState from "../../states/entity/enemy/EnemyAttackState.js";
-import GameObject from "../../objects/GameObject.js";
 
 export default class Enemy extends GameEntity{
     static WIDTH = 48;

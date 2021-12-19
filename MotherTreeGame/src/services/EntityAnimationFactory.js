@@ -1,8 +1,9 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import EnemyType from "../enums/EntityType.js";
-import Goblin from "../entities/Enemy/Goblin.js";
 import EntityType from "../enums/EntityType.js";
-//import Warrior from "../entities/Enemy/Warrior.js";
-import Direction from "../enums/Direction.js";
 import EnemyStateName from "../enums/EnemyStateName.js";
 
 export default class EntityAnimationFactory{

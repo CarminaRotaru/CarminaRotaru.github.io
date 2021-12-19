@@ -1,14 +1,15 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Animation from "../../../../lib/Animation.js";
 import { getRandomPositiveInteger } from "../../../../lib/RandomNumberHelpers.js";
 import State from "../../../../lib/State.js";
-import Timer from "../../../../lib/Timer.js";
 import Direction from "../../../enums/Direction.js";
 import EnemyStateName from "../../../enums/EnemyStateName.js";
-import { keys, timer } from "../../../globals.js";
-import Map from "../../../objects/Map.js";
-import Tile from "../../../objects/Tile.js";
+import { timer } from "../../../globals.js";
 import EntityAnimationFactory from "../../../services/EntityAnimationFactory.js";
-import EnemyWalkingState from "./EnemyWalkingState.js";
 
 export default class EnemyIdleState extends State{
     static IDLE_DURATION_MIN = 2;
@@ -45,11 +46,5 @@ export default class EnemyIdleState extends State{
             else
                 this.enemy.changeState(EnemyStateName.Walking);
         });
-    }
-
-    checkForAttack(player){
-        /*if (keys[' ']) {
-			//this.player.changeState(EnemyStateName.Attack);
-		}*/
     }
 }

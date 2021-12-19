@@ -1,4 +1,7 @@
-import Game from "../../../lib/Game.js";
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import State from "../../../lib/State.js";
 import Player from "../../entities/Player.js";
 import GameStateName from "../../enums/GameStateName.js";
@@ -10,10 +13,8 @@ import UserInterface from "../../services/UserInterface.js";
 import SaveGame from "../../services/SaveGame.js";
 import EnemyFactory from "../../services/EnemyFactory.js";
 import PlayerStateName from "../../enums/PlayerStateName.js";
-import EnemyStateName from "../../enums/EnemyStateName.js";
 import Blood from "../../objects/Blood.js";
 import Vector from "../../../lib/Vector.js";
-import PlayerSleepState from "../entity/player/PlayerSleepState.js";
 import ImageName from "../../enums/ImageName.js";
 
 export default class PlayState extends State {

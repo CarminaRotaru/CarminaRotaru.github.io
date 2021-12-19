@@ -1,14 +1,14 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import State from "../../../lib/State.js";
-import Player from "../../entities/Player.js";
 import GameStateName from "../../enums/GameStateName.js";
 import ImageName from "../../enums/ImageName.js";
 import TitleSelect from "../../enums/TitleSelect.js";
-import { canvas, CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, sounds, stateMachine } from "../../globals.js";
-import Map from "../../objects/Map.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, sounds, stateMachine } from "../../globals.js";
 import MotherTree from "../../objects/MotherTree.js";
 import SoundName from "../../enums/SoundName.js"
-import Tile from "../../objects/Tile.js";
-import Game from "../../../lib/Game.js";
 
 export default class TitleScreenState extends State {
 	static SELECT_TOKEN_TIZE = 3;

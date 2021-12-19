@@ -1,3 +1,7 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import { MAX_GAME_SAVES, MAX_HIGH_SCORES } from "../globals.js";
 import Map from "../objects/Map.js";
 

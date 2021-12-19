@@ -1,5 +1,10 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import State from "../../../lib/State.js";
-import { canvas, CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, stateMachine, timer } from "../../globals.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, stateMachine, timer } from "../../globals.js";
 
 export default class GameOverState extends State { 
     static DURATION = 5;

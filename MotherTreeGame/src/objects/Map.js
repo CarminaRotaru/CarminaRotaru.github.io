@@ -1,23 +1,23 @@
+/**
+* Codder: Carmina Rotaru
+* Date: 12/18/2021
+*/
+import { getRandomPositiveInteger, didSucceedChance, getRandomNumber } from "../../lib/RandomNumberHelpers.js";
+import { canvas, CANVAS_HEIGHT, CANVAS_WIDTH, images, timer, keys, stateMachine } from "../globals.js";
+import GameStateName from "../enums/GameStateName.js";
 import Sprite from "../../lib/Sprite.js";
 import Vector from "../../lib/Vector.js";
 import ImageName from "../enums/ImageName.js";
-import { getRandomPositiveInteger, didSucceedChance, getRandomNumber } from "../../lib/RandomNumberHelpers.js";
-import { canvas, CANVAS_HEIGHT, CANVAS_WIDTH, images, timer, keys, stateMachine } from "../globals.js";
 import Tile from "./Tile.js";
-import Goblin from "../entities/Enemy/Goblin.js";
 import EnemyStateName from "../enums/EnemyStateName.js";
 import EnemyFactory from "../services/EnemyFactory.js";
 import EnemyType from "../enums/EntityType.js";
-import EnemyFollowingState from "../states/entity/enemy/EnemyFollowingState.js";
 import MotherTree from "./MotherTree.js";
 import Blood from "./Blood.js";
-import GameObject from "./GameObject.js";
-import GameStateName from "../enums/GameStateName.js";
-import Skeleton from "../entities/Enemy/Skeleton.js";
 
 export default class Map{
-    static WIDTH = 100;//CANVAS_WIDTH / Tile.TILE_SIZE;
-	static HEIGHT = 100;//Math.floor(CANVAS_HEIGHT / Tile.TILE_SIZE);
+    static WIDTH = 100;
+	static HEIGHT = 100;
 
     static CENTER_X = CANVAS_WIDTH / 2;
     static CENTER_Y = CANVAS_HEIGHT / 2;
@@ -79,10 +79,6 @@ export default class Map{
 
         if(this.player.isDead)
             stateMachine.change(GameStateName.GameOver);
-            /*stateMachine.change(GameStateName.Transition, {
-                fromState: this,
-                toState: stateMachine.states[GameStateName.GameOver]
-            });*/
 
         this.player.update(dt);
     }

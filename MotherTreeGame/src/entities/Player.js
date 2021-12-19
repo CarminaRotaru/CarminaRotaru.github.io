@@ -1,9 +1,12 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import GameEntity from "./GameEntity.js";
-import { canvas, context, DEBUG, images, sounds, timer } from "../globals.js";
+import { context, DEBUG, sounds, timer } from "../globals.js";
 import StateMachine from "../../lib/StateMachine.js";
 import Hitbox from "../../lib/Hitbox.js";
-import ImageName from "../enums/ImageName.js";
-import Sprite from "../../lib/Sprite.js";
 import Map from "../objects/Map.js";
 import PlayerStateName from "../enums/PlayerStateName.js";
 import PlayerIdleState from "../states/entity/player/PlayerIdleState.js"

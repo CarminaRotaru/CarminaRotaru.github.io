@@ -1,15 +1,17 @@
+/* 
+* Codder: Carmina Rotaru
+* Date: 12/18/2021
+*/
 import GameObject from "./GameObject.js";
 import Sprite from "../../lib/Sprite.js";
 import ImageName from "../enums/ImageName.js";
 import { images, DEBUG, context, timer, sounds } from "../globals.js";
-import Player from "../entities/Player.js";
 import TreeLevel from "../enums/TreeLevel.js";
 import Vector from "../../lib/Vector.js";
 import Hitbox from "../../lib/Hitbox.js";
 import Direction from "../enums/Direction.js";
 import Tile from "./Tile.js";
 import EnemyStateName from "../enums/EnemyStateName.js";
-import EnemyIdleState from "../states/entity/enemy/EnemyIdleState.js";
 import SoundName from "../enums/SoundName.js";
 
 export default class MotherTree extends GameObject {

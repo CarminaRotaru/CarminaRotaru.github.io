@@ -1,3 +1,7 @@
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Player from "../entities/Player.js";
 import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, timer } from "../globals.js";
 import MotherTree from "../objects/MotherTree.js";

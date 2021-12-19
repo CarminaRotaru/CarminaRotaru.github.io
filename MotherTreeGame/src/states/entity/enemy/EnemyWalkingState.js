@@ -1,12 +1,15 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Animation from "../../../../lib/Animation.js";
 import { getRandomPositiveInteger, didSucceedChance, pickRandomElement } from "../../../../lib/RandomNumberHelpers.js";
 import State from "../../../../lib/State.js";
 import Direction from "../../../enums/Direction.js";
 import EnemyStateName from "../../../enums/EnemyStateName.js";
-import { keys, timer } from "../../../globals.js";
+import { timer } from "../../../globals.js";
 import Map from "../../../objects/Map.js";
-import Tile from "../../../objects/Tile.js";
-import Enemy from "../../../entities/Enemy/Enemy.js"
 import EntityAnimationFactory from "../../../services/EntityAnimationFactory.js";
 
 export default class EnemyWalkingState extends State{

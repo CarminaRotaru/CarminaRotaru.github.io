@@ -1,6 +1,10 @@
+/**
+ * Codder: Vikram Singh
+ * Modified by Carmina Rotaru
+ * Date: 12/18/2021
+ */
 import Animation from "../../../../lib/Animation.js";
 import State from "../../../../lib/State.js";
-import Player from "../../../entities/Player.js";
 import Direction from "../../../enums/Direction.js";
 import PlayerStateName from "../../../enums/PlayerStateName.js";
 import SoundName from "../../../enums/SoundName.js";

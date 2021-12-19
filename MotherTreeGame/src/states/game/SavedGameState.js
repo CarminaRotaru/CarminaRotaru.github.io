@@ -1,13 +1,12 @@
-import Game from "../../../lib/Game.js";
+/**
+ * Codder: Carmina Rotaru
+ * Date: 12/18/2021
+ */
+ import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, MAX_GAME_SAVES, MAX_HIGH_SCORES, sounds, stateMachine, timer } from "../../globals.js";
 import State from "../../../lib/State.js";
-import Player from "../../entities/Player.js";
 import GameStateName from "../../enums/GameStateName.js";
 import ImageName from "../../enums/ImageName.js";
 import SoundName from "../../enums/SoundName.js";
-import TitleSelect from "../../enums/TitleSelect.js";
-import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, keys, MAX_GAME_SAVES, MAX_HIGH_SCORES, sounds, stateMachine, timer } from "../../globals.js";
-import Map from "../../objects/Map.js";
-import MotherTree from "../../objects/MotherTree.js";
 import SaveGame from "../../services/SaveGame.js"
 
 export default class SavedGameState extends State { 
