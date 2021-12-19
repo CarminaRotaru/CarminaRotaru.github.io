@@ -1,0 +1,269 @@
+{
+	"images": [
+		{
+			"name": "tiles",
+			"source": "https://pixiatrist.itch.io/amazingtilesetground1",
+			"path": "./assets/images/tiles.png",
+			"width": 112,
+			"height": 32
+		},
+		{
+			"name": "motherTree",
+			"source": "https://graphscriptdev.itch.io/tree-pixel-art",
+			"path": "./assets/images/Objects/motherTrees.png",
+			"width": 192,
+			"height": 48
+		},
+		{
+			"name": "background",
+			"source": "https://pxhere.com/en/photo/680306",
+			"path": "./assets/images/background.jpg",
+			"width": 1200,
+			"height": 900
+		},
+		{
+			"name": "night",
+			"source": "https://pixabay.com/photos/cat-good-night-sleep-weary-moon-2124168/",
+			"path": "./assets/images/night.jpg",
+			"width": 1920,
+			"height": 1357
+		},
+		{
+			"name": "blood",
+			"source": "https://startledpixels.itch.io/2d-pixel-item-asset-pack",
+			"path": "./assets/images/Objects/bloodPossion.png",
+			"width": 8,
+			"height": 11
+		},
+		{
+			"name": "goblinDownRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Down/GoblinSlingerDownRun.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "goblinLeftRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Left/GoblinSlingerLeftRun.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "goblinRightRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Right/GoblinSlingerRightRun.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "goblinUpRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Up/GoblinSlingerUpRun.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "goblinDownAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Down/GoblinSlingerDownAttack01.png",
+			"width": 1008,
+			"height": 48
+		},
+		{
+			"name": "goblinLeftAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Left/GoblinSlingerLeftAttack01.png",
+			"width": 1008,
+			"height": 48
+		},
+		{
+			"name": "goblinRightAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Right/GoblinSlingerRightAttack01.png",
+			"width": 1008,
+			"height": 48
+		},
+		{
+			"name": "goblinUpAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-goblin-slinger-enemy",
+			"path": "./assets/images/Goblin/Up/GoblinSlingerUpAttack01.png",
+			"width": 1008,
+			"height": 48
+		},
+		{
+			"name": "warriorDownRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Down/WarriorDownWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "warriorLeftRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Left/WarriorLeftWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "warriorRightRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Right/WarriorRightWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "warriorUpRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Up/WarriorUpWalk.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "warriorDownAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Down/WarriorDownAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "warriorLeftAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Left/WarriorLeftAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "warriorRightAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Right/WarriorRightAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "warriorUpAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-warrior-pixel-art-free",
+			"path": "./assets/images/Warrior/Up/WarriorUpAttack01.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "skeletonDownRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Down/SkeletonWithSwordDownWalk.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "skeletonLeftRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Left/SkeletonWithSwordLeftWalk.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "skeletonRightRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Right/SkeletonWithSwordRightWalk.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "skeletonUpRun",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Up/SkeletonWithSwordUpWalk.png",
+			"width": 288,
+			"height": 48
+		},
+		{
+			"name": "skeletonDownAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Down/SkeletonWithSwordDownAttack01.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "skeletonLeftAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Left/SkeletonWithSwordLeftAttack01.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "skeletonRightAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Right/SkeletonWithSwordRightAttack01.png",
+			"width": 384,
+			"height": 48
+		},
+		{
+			"name": "skeletonUpAttack",
+			"source": "https://foozlecc.itch.io/lucifer-4-direction-skeleton-grunt-enemy",
+			"path": "./assets/images/Skeleton/Up/SkeletonWithSwordUpAttack01.png",
+			"width": 384,
+			"height": 48
+		}
+	],
+	"fonts": [
+		{
+			"name": "Smalimar",
+			"path": "./assets/fonts/Shalimar-Regular.ttf"
+		},
+		{
+			"name": "Marker",
+			"path": "./assets/fonts/PermanentMarker-Regular.ttf"
+		}
+	],
+	"sounds": [
+		{
+			"name": "titleMusic",
+			"source": "https://freesound.org/people/TheoTeravainen/sounds/569782/",
+			"path": "./assets/sounds/titleMusic.wav",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "playMusic",
+			"source": "https://freesound.org/people/ShadyDave/sounds/471510/",
+			"path": "./assets/sounds/playMusic.mp3",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "hit_entity",
+			"source": "",
+			"path": "./assets/sounds/hit_entity.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "sword",
+			"source": "",
+			"path": "./assets/sounds/attackSwing.wav",
+			"size": 1,
+			"volume": 1
+		},
+		{
+			"name": "deathMusic",
+			"source": "",
+			"path": "./assets/sounds/deathMusic.ogg",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "pick_Up",
+			"source": "",
+			"path": "./assets/sounds/pick-up.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "unload",
+			"source": "https://freesound.org/people/BeezleFM/sounds/512133/",
+			"path": "./assets/sounds/unloadCoins.wav",
+			"size": 1,
+			"volume": 0.5
+		}
+
+	]
+}
