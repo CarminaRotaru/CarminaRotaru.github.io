@@ -7,7 +7,7 @@ body{
     margin: 0;
     margin: auto;
     max-width: 1200px;
-    background-color: #7F1A80;
+    background-color: #4d4d4d;
     line-height: 2rem;
     color: #dadada;
 }
@@ -24,7 +24,7 @@ a:hover{
 }
 
 nav{
-    background-color: #5C186D;
+    background-color: #252525;
     height: 60px;
     position: sticky;
     top: 0;
