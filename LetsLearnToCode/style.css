@@ -1,0 +1,72 @@
+html{
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    align-items: center;
+    background-color: whitesmoke;
+    color: #d9f1ff;
+}
+
+.gap{
+    padding: 10px;
+}
+
+.title{
+    background-color: #001D64;
+    padding: 100px;
+    font-size: 25px;
+}
+
+.classList{
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3b6be3;
+    background-color: #d9f1ff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+
+.classListElement{
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #001D64;
+    background-color: #006ABC;
+}
+
+.button{
+    background-color: #001D64;
+    border: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #d9f1ff;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .classList{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .classList{
+        grid-template-columns: 100%;
+    }
+}
