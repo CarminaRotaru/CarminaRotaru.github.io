@@ -7,6 +7,66 @@ body{
     align-items: center;
     background-color: whitesmoke;
     color: #d9f1ff;
+    margin: 0;
+}
+
+.navBar{
+    overflow: hidden;
+    background-color: #d9f1ff;
+    font-size: 20px;
+}
+
+.navBar a{
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.navdropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.navdropdown button{
+    font-family: inherit;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.navdropdown_content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background-color: #d9f1ff;
+    font-size: 15px;
+}
+
+.navdropdown_content:hover{
+    background-color: blue;
+}
+
+.navdropdown_content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navdropdown:hover .navdropdown_content{
+    display: block;
 }
 
 .gap{
@@ -20,6 +80,7 @@ body{
 }
 
 .classList{
+    margin: 20px;
     padding: 20px;
     border: 2px;
     border-style: solid;
@@ -30,6 +91,7 @@ body{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
+    gap: 1rem;
 }
 
 .classListElement{
@@ -39,6 +101,16 @@ body{
     border-radius: 20px;
     border-color: #001D64;
     background-color: #006ABC;
+}
+
+.document{
+    padding: 30px;
+    margin-left: 5%;
+    color: black;
+}
+
+.document h1{
+    font-size: 50px;
 }
 
 .button{
@@ -64,7 +136,7 @@ body{
     }
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
     .classList{
         grid-template-columns: 100%;
