@@ -1,0 +1,22 @@
+body{
+    margin: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+}
+
+#refreshButton{
+    width: 100px;
+}

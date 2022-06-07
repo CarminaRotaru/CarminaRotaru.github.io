@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./code.js"></script>
+    <title>LetsLearnToCode</title>
+</head>
+<body>
+    <h1>Tick Tack Toe</h1>
+    <table>
+        <tr>
+            <td><button id="11" onclick="onClick(this)" value="test"></button></td>
+            <td><button id="12" onclick="onClick(this)"></button></td>
+            <td><button id="13" onclick="onClick(this)"></button></td>
+        </tr>
+        <tr>
+            <td><button id="21" onclick="onClick(this)"></button></td>
+            <td><button id="22" onclick="onClick(this)"></button></td>
+            <td><button id="23" onclick="onClick(this)"></button></td>
+        </tr>
+        <tr>
+            <td><button id="31" onclick="onClick(this)"></button></td>
+            <td><button id="32" onclick="onClick(this)"></button></td>
+            <td><button id="33" onclick="onClick(this)"></button></td>
+        </tr>
+    </table>
+
+    <h2 id="winner"></h2>
+    <button onclick="refresh()" id="refreshButton">Play Again</button>
+</body>
+</html>
