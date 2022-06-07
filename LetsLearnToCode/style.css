@@ -122,10 +122,19 @@ body{
     padding: 30px;
     margin-left: 5%;
     color: black;
+    margin-right: 15%
 }
 
 .document h1{
     font-size: 50px;
+}
+
+.document h2{
+    color: #001D64;
+}
+
+.document h3{
+    color: #3b6be3;
 }
 
 .button{
